@@ -2,10 +2,10 @@
     <img src="https://community.devexpress.com/blogs/aspnet/DevExpress-Powered-Color-Large.png" alt="DevExpress logo" title="DevExpress" align="right" />
 </a>
 
-Free DevExpress Bootstrap v4 Themes
+Free DevExpress Bootstrap v4 / v5 Themes
 =====================================
 
-This repository contains free and open source themes that were created for websites built using Bootstrap v4 or later.
+This repository contains free and open source themes that were created for websites built using Bootstrap v4 / v5 or later.
 
 ## Table of Contents
 - [What's Included](#whats-included)
@@ -42,14 +42,14 @@ This repository contains free and open source themes that were created for websi
 
 ## Getting Started
 
-The [/dist/](dist) folder includes nested folders whose names correspond to theme names: [blazing-berry](dist/blazing-berry), [office-white](dist/office-white), and [purple](dist/purple). Each nested folder contains the following theme-related files:
+The [/dist/](dist) and [/dist.v5/](dist.v5) folders include nested folders whose names correspond to theme names: [blazing-berry](dist/blazing-berry), [office-white](dist/office-white), and [purple](dist/purple). Each nested folder contains the following theme-related files:
 
 1) Theme stylesheets that you can apply to your application. 
 * **bootstrap.css** - a ready-to-use CSS file.
 * **bootstrap.min.css** - a ready-to-use minimized CSS file.
 
 2) Theme source files that you can [customize](#customization) to create your own theme.
-* **_variables.scss** - a file with [variables](https://getbootstrap.com/docs/4.4/getting-started/theming/#variable-defaults).
+* **_variables.scss** - a file with [v4](https://getbootstrap.com/docs/4.6/getting-started/theming/#variable-defaults) / [v5](https://getbootstrap.com/docs/5.0/customize/sass/#variable-defaults) variables.
 * **_styles.scss** - a file with custom CSS rules.
 * **{theme_name}.scss** - a theme file that imports variables, the default Bootstrap theme, and custom CSS rules. Do not change the *import* order is this file.
 
@@ -57,7 +57,7 @@ The [/dist/](dist) folder includes nested folders whose names correspond to them
 
 Do the following to customize the theme source files and compile the resulting theme:
 1. Clone or download this repository.
-1. Open the **dist/{theme_name}/_variables.scss** file and modify [variable values](https://getbootstrap.com/docs/4.4/getting-started/theming/#variable-defaults). You can also add your own variables.
+1. Open the **dist/{theme_name}/_variables.scss** file and modify [v4](https://getbootstrap.com/docs/4.6/getting-started/theming/#variable-defaults) / [v5](https://getbootstrap.com/docs/5.0/customize/sass/#variable-defaults) variable values. You can also add your own variables.
 1. Open the **dist/{theme_name}/_styles.scss** file. Modify CSS rules or create custom rules. You can use a browser’s Developer Tools to [inspect UI elements](https://www.devexpress.com/Support/Center/Question/Details/K18570/how-to-inspect-css-rules).
 1. Install [Node.js and npm](https://nodejs.org/en/download/) if they do not exist on your machine.
 1. Go to the folder where the **package.json** file is located. Open the console window and run `npm install` to install all the dependencies.
@@ -69,7 +69,7 @@ This creates two new CSS files (**bootstrap.css** and **bootstrap.min.css**) in 
 
 ## Copyright and License
 
-Copyright © 2018-2020 [Developer Express Inc.](https://devexpress.com/) All trademarks or registered trademarks are property of their respective owners. 
+Copyright © 2018-2021 [Developer Express Inc.](https://devexpress.com/) All trademarks or registered trademarks are property of their respective owners. 
 This project code is released under the [MIT License](LICENSE).
 
 ## More Information
