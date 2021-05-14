@@ -55,7 +55,10 @@ $input-btn-padding-y: .40625rem;
 $input-btn-padding-y-lg: .65625rem;
 $input-btn-padding-y-sm: .203125rem;
 $btn-padding-y-sm: .2195rem;
+
 $custom-control-indicator-size: 1.25rem;
+/*$form-check-input-width: 1.25em;*/ /*bs5*/
+
 $custom-control-indicator-bg-size: 100% 100%;
 $custom-checkbox-indicator-icon-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 12 12'%3e%3cpath fill='%23fff' d='M7,1L3,5L1,3L0,4l3,3l5-5L7,1z'/%3e%3c/svg%3e");
 $custom-radio-indicator-icon-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%%3ccircle r='2.3' fill='%23fff'/%3e%3c/svg%3e");
